@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
-
+import foto from '../assets/foto.png';
 const Header = () => {
   return (
     <header>
       <NavLink to="/">
-        <h1>Home</h1>
+        <img src={foto} alt="" width={'50px'} />
       </NavLink>
     </header>
   );
